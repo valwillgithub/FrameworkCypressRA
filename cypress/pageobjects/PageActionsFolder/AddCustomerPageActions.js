@@ -11,7 +11,7 @@ addCustomerDetails(firstName, lastName, pCode){
     custElement.firstName().type(firstName)
     custElement.lastName().type(lastName)
     custElement.postCode().type(pCode)
-    custElement.addCustomerSubmit().click()
+    custElement.addCustomerSubmit1().click()
 }
 
 verifyAlert(msg) {
