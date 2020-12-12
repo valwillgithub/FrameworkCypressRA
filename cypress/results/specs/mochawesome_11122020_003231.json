@@ -1,0 +1,145 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-12-11T00:32:28.424Z",
+    "end": "2020-12-11T00:32:31.220Z",
+    "duration": 2796,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6de391cd-c79f-4182-90f1-0b498325a701",
+      "title": "",
+      "fullFile": "cypress\\integration\\testcases\\BankManagerLoginTest.spec.js",
+      "file": "cypress\\integration\\testcases\\BankManagerLoginTest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c6cde22d-d531-41fe-bec9-c818c27e856d",
+          "title": "Login As Bank Manager Testcase",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate Title of the Page",
+              "fullTitle": "Login As Bank Manager Testcase Validate Title of the Page",
+              "timedOut": null,
+              "duration": 1606,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.validateTitle().should('eq', 'Protractor practice website - Banking App');",
+              "err": {},
+              "uuid": "2758a5a5-5485-441a-95fe-ee7e528a02ff",
+              "parentUUID": "c6cde22d-d531-41fe-bec9-c818c27e856d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify Login As Bank Manager",
+              "fullTitle": "Login As Bank Manager Testcase Verify Login As Bank Manager",
+              "timedOut": null,
+              "duration": 663,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.loginAsBankManager();",
+              "err": {},
+              "uuid": "991e850d-9afa-4886-8b2c-87cf5ab87a92",
+              "parentUUID": "c6cde22d-d531-41fe-bec9-c818c27e856d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify Login As Customer",
+              "fullTitle": "Login As Bank Manager Testcase Verify Login As Customer",
+              "timedOut": null,
+              "duration": 430,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.loginAsCustomer();",
+              "err": {},
+              "uuid": "7f2281ea-a519-4ad8-8298-3d2a76212e7d",
+              "parentUUID": "c6cde22d-d531-41fe-bec9-c818c27e856d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2758a5a5-5485-441a-95fe-ee7e528a02ff",
+            "991e850d-9afa-4886-8b2c-87cf5ab87a92",
+            "7f2281ea-a519-4ad8-8298-3d2a76212e7d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2699,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results/specs",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "charts": true,
+        "timestamp": "ddmmyyyy_HHMMss"
+      },
+      "version": "5.1.0"
+    }
+  }
+}

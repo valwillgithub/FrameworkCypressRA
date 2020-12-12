@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-12-11T00:50:22.567Z",
+    "end": "2020-12-11T00:50:25.797Z",
+    "duration": 3230,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ac3390c9-1c94-455e-b084-e703c6503f68",
+      "title": "",
+      "fullFile": "cypress\\integration\\testcases\\AddNewCustomerTest.spec.js",
+      "file": "cypress\\integration\\testcases\\AddNewCustomerTest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "81cd6a53-b710-4eee-bf34-2b0940fcc38c",
+          "title": "Add New Customer TestSuite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Add New Customer Testcase",
+              "fullTitle": "Add New Customer TestSuite Add New Customer Testcase",
+              "timedOut": null,
+              "duration": 768,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "homePage.loginAsBankManager();\naddCust.addCustomerDetails(data.firstname, data.lastname, data.postcode);\n(0, _utils.verifyAlert1)(data.alertmsg);",
+              "err": {
+                "message": "TypeError: custElement.addCustomerSubmit1 is not a function",
+                "estack": "TypeError: custElement.addCustomerSubmit1 is not a function\n    at AddCustomerPageActions.addCustomerDetails (http://www.way2automation.com/__cypress/tests?p=cypress\\integration\\testcases\\AddNewCustomerTest.spec.js:279:19)\n    at Context.eval (http://www.way2automation.com/__cypress/tests?p=cypress\\integration\\testcases\\AddNewCustomerTest.spec.js:186:13)",
+                "diff": null
+              },
+              "uuid": "3056eb3d-9b5e-428f-928c-c5bc5f587042",
+              "parentUUID": "81cd6a53-b710-4eee-bf34-2b0940fcc38c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "3056eb3d-9b5e-428f-928c-c5bc5f587042"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 768,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results/specs",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "charts": true,
+        "timestamp": "ddmmyyyy_HHMMss"
+      },
+      "version": "5.1.0"
+    }
+  }
+}
