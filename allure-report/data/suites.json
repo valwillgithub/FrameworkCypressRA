@@ -1,0 +1,82 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Add New Customer TestSuite",
+    "children" : [ {
+      "name" : "Add New Customer Testcase",
+      "uid" : "c42196998a7f5df5",
+      "parentUid" : "14b14352ad4a5b14e0ae36d4365de0fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607997044273,
+        "stop" : 1607997060552,
+        "duration" : 16279
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "14b14352ad4a5b14e0ae36d4365de0fb"
+  }, {
+    "name" : "Login As Bank Manager Testcase",
+    "children" : [ {
+      "name" : "Validate Title of the Page",
+      "uid" : "59fb1e1666b26d6a",
+      "parentUid" : "d9f1d52f4d936669baf42228ea64362e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607997068754,
+        "stop" : 1607997070377,
+        "duration" : 1623
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify Login As Bank Manager",
+      "uid" : "63b9a153d3116b1",
+      "parentUid" : "d9f1d52f4d936669baf42228ea64362e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607997070398,
+        "stop" : 1607997071011,
+        "duration" : 613
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify Login As Customer",
+      "uid" : "3d906435a8b90326",
+      "parentUid" : "d9f1d52f4d936669baf42228ea64362e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607997071017,
+        "stop" : 1607997071479,
+        "duration" : 462
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d9f1d52f4d936669baf42228ea64362e"
+  }, {
+    "name" : "Open Account TestSuite",
+    "children" : [ {
+      "name" : "Open Account Testcase",
+      "uid" : "fddcb4d574b46db9",
+      "parentUid" : "40e58b2d914bc868de0f744ec2d0b481",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607998139294,
+        "stop" : 1607998156169,
+        "duration" : 16875
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "40e58b2d914bc868de0f744ec2d0b481"
+  } ]
+}

@@ -4,21 +4,28 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "testcases" : "cypress run --spec ./cypress/integration/testcases/*.js --browser chrome --headed --record --key d546813b-b171-4f64-93ec-69b7bfcc612d",
-    "edgetest" : "cypress run --spec cypress/integration/testcases/OpenAccountTest.spec.js -b chrome --headed --record --key d546813b-b171-4f64-93ec-69b7bfcc612d",
-    "mergereports" : "mochawesome-merge cypress/results/specs/*.json > cypress/reports/mochawesome.json",
-    "generatereport" : "marge cypress/reports/mochawesome.json --reportDir cypress/reports --reportFilename finalreport.html",
-    "finaltest" : "npm run testcases && npm run mergereports && npm run generatereport"
+    "testcases": "cypress run --spec ./cypress/integration/testcases/*.js --browser chrome --headed --record --key d546813b-b171-4f64-93ec-69b7bfcc612d",
+    "testcases-allure": "cypress run --spec ./cypress/integration/testcases/*.js --browser chrome --headed --reporter mocha-allure-reporter",
+    "generate-allurereports": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "edgetest": "cypress run --spec cypress/integration/testcases/OpenAccountTest.spec.js -b edge --headed --record --key d546813b-b171-4f64-93ec-69b7bfcc612d",
+    "edgetest-allure": "cypress run --spec cypress/integration/testcases/OpenAccountTest.spec.js -b edge --headed --reporter mocha-allure-reporter",
+
+    "mergereports": "mochawesome-merge cypress/results/specs/*.json > cypress/reports/mochawesome.json",
+    "generatereport": "marge cypress/reports/mochawesome.json --reportDir cypress/reports --reportFilename finalreport.html",
+    "finaltest": "npm run testcases && npm run mergereports && npm run generatereport",
+    "finaltest-allure": "npm run edgetest-allure && npm run generate-allurereports"
 
   },
   "author": "vwilliams",
   "license": "ISC",
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^1.4.0",
+    "allure-commandline": "^2.13.0",
     "cypress": "^5.3.0",
     "cypress-file-upload": "^4.1.1",
     "cypress-iframe": "^1.0.1",
     "cypress-xpath": "^1.6.1",
+    "mocha-allure-reporter": "^1.4.0",
     "mochawesome": "^6.2.1",
     "mochawesome-merge": "^4.2.0",
     "mochawesome-report-generator": "^5.1.0"

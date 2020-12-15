@@ -1,0 +1,62 @@
+{
+  "uid" : "fddcb4d574b46db9",
+  "name" : "Open Account Testcase",
+  "fullName" : "Open Account TestSuite.Open Account Testcase",
+  "historyId" : "27338179a045e112456674fbeb3c58f9",
+  "time" : {
+    "start" : 1607998139294,
+    "stop" : 1607998156169,
+    "duration" : 16875
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Open Account TestSuite"
+  }, {
+    "name" : "testClass",
+    "value" : "Open Account TestSuite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open Account Testcase"
+  }, {
+    "name" : "package",
+    "value" : "Open Account TestSuite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c88b53f5b1836eba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607998053913,
+        "stop" : 1607998070799,
+        "duration" : 16886
+      }
+    }, {
+      "uid" : "8c105e3def13f6e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1607997080463,
+        "stop" : 1607997086446,
+        "duration" : 5983
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fddcb4d574b46db9.json",
+  "parameterValues" : [ ]
+}

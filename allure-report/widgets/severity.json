@@ -1,0 +1,51 @@
+[ {
+  "uid" : "fddcb4d574b46db9",
+  "name" : "Open Account Testcase",
+  "time" : {
+    "start" : 1607998139294,
+    "stop" : 1607998156169,
+    "duration" : 16875
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d906435a8b90326",
+  "name" : "Verify Login As Customer",
+  "time" : {
+    "start" : 1607997071017,
+    "stop" : 1607997071479,
+    "duration" : 462
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59fb1e1666b26d6a",
+  "name" : "Validate Title of the Page",
+  "time" : {
+    "start" : 1607997068754,
+    "stop" : 1607997070377,
+    "duration" : 1623
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63b9a153d3116b1",
+  "name" : "Verify Login As Bank Manager",
+  "time" : {
+    "start" : 1607997070398,
+    "stop" : 1607997071011,
+    "duration" : 613
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c42196998a7f5df5",
+  "name" : "Add New Customer Testcase",
+  "time" : {
+    "start" : 1607997044273,
+    "stop" : 1607997060552,
+    "duration" : 16279
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

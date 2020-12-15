@@ -1,0 +1,46 @@
+{
+  "uid" : "63b9a153d3116b1",
+  "name" : "Verify Login As Bank Manager",
+  "fullName" : "Login As Bank Manager Testcase.Verify Login As Bank Manager",
+  "historyId" : "e3f35f35fc1de5e0a6bff7ce18f40453",
+  "time" : {
+    "start" : 1607997070398,
+    "stop" : 1607997071011,
+    "duration" : 613
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login As Bank Manager Testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "Login As Bank Manager Testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Login As Bank Manager"
+  }, {
+    "name" : "package",
+    "value" : "Login As Bank Manager Testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "63b9a153d3116b1.json",
+  "parameterValues" : [ ]
+}
