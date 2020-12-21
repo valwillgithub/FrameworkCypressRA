@@ -20,5 +20,6 @@
     "runMode": 1,
     "openMode": 1
   },
-  "projectId": "86v319"
+  "projectId": "86v319",
+  "testFiles": "**/*.feature"
 }
