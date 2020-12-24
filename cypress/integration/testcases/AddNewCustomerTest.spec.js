@@ -10,7 +10,7 @@ describe('Add New Customer TestSuite', () => {
     const addCust = new AddCustomerPageActions()
     let num = getRandomNumber()
 
-    before(() => {
+    before(() => { 
         cy.fixture('testdata').then((data)=>{
             data.firstname = data.firstname+num
             data.lastname = data.lastname+num

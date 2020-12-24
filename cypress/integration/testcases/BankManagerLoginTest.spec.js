@@ -12,8 +12,7 @@ describe('Login As Bank Manager Testcase',() =>{
     })
 
     it('Validate Title of the Page', ()=>{
-        homePage.validateTitle().should('eq','Protractor practice website - Banking App' )
-
+ 
     })//it
 
     it('Verify Login As Bank Manager', ()=>{

@@ -31,5 +31,8 @@
   },
   "dependencies": {
     "cypress-downloadfile": "^1.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
