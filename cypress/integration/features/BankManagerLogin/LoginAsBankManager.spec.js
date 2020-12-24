@@ -1,4 +1,6 @@
-import HomePageActions from '../../pageobjects/PageActionsFolder/HomePageActions'
+//import HomePageActions from '../../pageobjects/PageActionsFolder/HomePageActions'
+import HomePageActions from '../../../pageobjects/PageActionsFolder/HomePageActions'
+
 const homePage = new HomePageActions()
 
 Given('I navigate to the website',() => {
