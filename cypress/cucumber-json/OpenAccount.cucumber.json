@@ -1,0 +1,100 @@
+[
+  {
+    "description": "    As a bank manager I want to be able\n    to open an account for a new customer",
+    "keyword": "Feature",
+    "name": "Create a new bank account feature",
+    "line": 1,
+    "id": "create-a-new-bank-account-feature",
+    "tags": [],
+    "uri": "OpenAccount.feature",
+    "elements": [
+      {
+        "id": "create-a-new-bank-account-feature;create-a-new-bank-account-scenario",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Create a new bank account scenario",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to XYZ Bank website",
+            "result": {
+              "status": "passed",
+              "duration": 646000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I login as a bank manager",
+            "result": {
+              "status": "passed",
+              "duration": 163000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "firstName",
+                      "lastName",
+                      "postCode",
+                      "alertMsg"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Jessy",
+                      "Wales",
+                      "9021",
+                      "Customer added successfully with customer"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I add a new customer",
+            "result": {
+              "status": "passed",
+              "duration": 1365000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "alertMsg"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Account created successfully"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I can open an account for the customer",
+            "result": {
+              "status": "failed",
+              "duration": 8264000000,
+              "error_message": "CypressError: Timed out retrying: `cy.select()` failed because it could not find a single `<option>` with value or text matching: `[object Object]`\n    at getOptions (http://www.way2automation.com/__cypress/runner/cypress_runner.js:153124:21)\nFrom previous event:\n    at retryOptions (http://www.way2automation.com/__cypress/runner/cypress_runner.js:153162:27)\n    at tryFn (http://www.way2automation.com/__cypress/runner/cypress_runner.js:165556:21)\n    at whenStable (http://www.way2automation.com/__cypress/runner/cypress_runner.js:165594:12)\n    at http://www.way2automation.com/__cypress/runner/cypress_runner.js:165089:16\nFrom Your Spec Code:\n    at $Cy.eval (http://www.way2automation.com/__cypress/tests?p=cypress\\integration\\features\\OpenAccount.feature:100:5)\nFrom Your Spec Code:\n    at $Cy.eval (http://www.way2automation.com/__cypress/tests?p=cypress\\integration\\features\\OpenAccount.feature:100:5)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
