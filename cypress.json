@@ -17,8 +17,8 @@
     "url": "http://www.way2automation.com/angularjs-protractor/banking/#/login"
   },
   "retries": {
-    "runMode": 1,
-    "openMode": 1
+    "runMode": 0,
+    "openMode": 0
   },
   "projectId": "86v319"
 }

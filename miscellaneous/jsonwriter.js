@@ -2,16 +2,16 @@
 const fs = require('fs');
 
 const newObject = {
-    name: 'Val Williams',
-    age : 51,
-    address : '26 Martini Drive'
+    name: 'Vasty Jay',
+    age : 62,
+    address : '266 Martini Drive'
 };
 
 fs.writeFile('./valwill.json', JSON.stringify(newObject, null, 2), err => {
     if(err){
-        console.log(err);
+        console.log(err)
     }else{
-        console.log('File successfully written!');
+        console.log('File successfully written!')
     }
 });
 

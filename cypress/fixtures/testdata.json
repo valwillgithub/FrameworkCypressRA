@@ -1,11 +1,9 @@
 {
-    "firstname" : "Billiy",
-    "lastname" : "Kid",
-    "postcode" : "11234",
-    "alertmsg" : "Customer added successfully with customer",
-    "customer" : "",
-    "currencyToSelect" : "Dollar",
-    "fullname" : "Valmond"
+  "firstname": "Billiy",
+  "lastname": "Kid",
+  "postcode": "11234",
+  "alertmsg": "Customer added successfully with customer",
+  "customer": "",
+  "currencyToSelect": "Dollar",
+  "fullname": "Bo79 Jo79"
 }
-
-

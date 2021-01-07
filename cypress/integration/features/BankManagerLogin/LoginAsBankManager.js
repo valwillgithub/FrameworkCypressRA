@@ -1,4 +1,3 @@
-//import HomePageActions from '../../pageobjects/PageActionsFolder/HomePageActions'
 import {Given,When,And,Then} from 'cypress-cucumber-preprocessor/steps'
 import HomePageActions from '../../../pageobjects/PageActionsFolder/HomePageActions'
 

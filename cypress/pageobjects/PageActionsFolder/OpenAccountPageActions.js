@@ -9,6 +9,10 @@ export default class OpenAccountPageActions{
 
 openAccount(customer,currency){
     openAccountElement.openAccountBtn().click()
+    cy.pause()
+    cy.log('customer', customer)   
+    //cy.log('length => ' +customer.length)
+    //cy.pause()
     openAccountElement.customerName().select(customer)
     openAccountElement.currency().select(currency)
     openAccountElement.processBtn().click()

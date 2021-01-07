@@ -2,5 +2,5 @@
     "include": [
       "./node_modules/cypress",
       "cypress/**/*.js"
-    ]
+, "miscellaneous/stubExample.js", "miscellaneous/jsonwriter.js", "miscellaneous/jsonreader.js"    ]
 }
