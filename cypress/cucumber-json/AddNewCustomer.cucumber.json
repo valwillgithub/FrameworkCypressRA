@@ -28,7 +28,7 @@
             "name": "I navigate to XYZ Bank website",
             "result": {
               "status": "passed",
-              "duration": 1444000000
+              "duration": 19100000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "I login as a bank manager",
             "result": {
               "status": "passed",
-              "duration": 127000000
+              "duration": 145000000
             }
           },
           {
@@ -69,7 +69,7 @@
             "name": "I add a new customer",
             "result": {
               "status": "passed",
-              "duration": 1296000000
+              "duration": 3629000000
             }
           }
         ]

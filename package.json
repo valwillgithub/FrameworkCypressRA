@@ -12,14 +12,15 @@
     "mergereports": "mochawesome-merge cypress/results/specs/*.json > cypress/reports/mochawesome.json",
     "generatereport": "marge cypress/reports/mochawesome.json --reportDir cypress/reports --reportFilename finalreport.html",
     "finaltest": "npm run testcases && npm run mergereports && npm run generatereport",
-    "finaltest-allure": "npm run edgetest-allure && npm run generate-allurereports"
+    "finaltest-allure": "npm run edgetest-allure && npm run generate-allurereports",
+    "open": "cypress open"
   },
   "author": "vwilliams",
   "license": "ISC",
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^1.4.0",
     "allure-commandline": "^2.13.0",
-    "cypress": "^6.2.0",
+    "cypress": "^6.2.1",
     "cypress-cucumber-preprocessor": "^4.0.0",
     "cypress-file-upload": "^4.1.1",
     "cypress-iframe": "^1.0.1",

@@ -3,3 +3,5 @@
 package-lock.json
 /folder1
 cypress/results/specs/*
+node_modules/
+yarn.lock

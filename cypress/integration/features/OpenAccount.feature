@@ -10,4 +10,4 @@ Feature: Create a new bank account feature
             | Bo     | Jo    | 9021     | Customer added successfully with customer |
         Then I can open an account for the customer
             | alertMsg                 |
-            | Account created successfully |
+            | Account created successfully |  

@@ -23,7 +23,7 @@
             "name": "I navigate to XYZ Bank website",
             "result": {
               "status": "passed",
-              "duration": 802000000
+              "duration": 17462000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I login as a bank manager",
             "result": {
               "status": "passed",
-              "duration": 136000000
+              "duration": 140000000
             }
           },
           {
@@ -64,7 +64,7 @@
             "name": "I add a new customer",
             "result": {
               "status": "passed",
-              "duration": 1364000000
+              "duration": 3472000000
             }
           },
           {
@@ -89,7 +89,7 @@
             "name": "I can open an account for the customer",
             "result": {
               "status": "failed",
-              "duration": 11783000000,
+              "duration": 19461000000,
               "error_message": "CypressError: Timed out retrying after 8000ms: `cy.select()` failed because it could not find a single `<option>` with value or text matching: `[object Object]`\n    at getOptions (http://www.way2automation.com/__cypress/runner/cypress_runner.js:153160:21)\nFrom previous event:\n    at retryOptions (http://www.way2automation.com/__cypress/runner/cypress_runner.js:153198:27)\n    at tryFn (http://www.way2automation.com/__cypress/runner/cypress_runner.js:165754:21)\n    at whenStable (http://www.way2automation.com/__cypress/runner/cypress_runner.js:165792:12)\n    at http://www.way2automation.com/__cypress/runner/cypress_runner.js:165287:16\nFrom Your Spec Code:\n    at OpenAccountPageActions.openAccount (http://www.way2automation.com/__cypress/tests?p=cypress\\integration\\features\\OpenAccount.feature:337:41)\n    at Context.eval (http://www.way2automation.com/__cypress/tests?p=cypress\\integration\\features\\OpenAccount.feature:113:15)\n    at Context.resolveAndRunStepDefinition (http://www.way2automation.com/__cypress/tests?p=cypress\\integration\\features\\OpenAccount.feature:14091:9)\n    at Context.eval (http://www.way2automation.com/__cypress/tests?p=cypress\\integration\\features\\OpenAccount.feature:13432:35)\nFrom Your Spec Code:\n    at OpenAccountPageActions.openAccount (http://www.way2automation.com/__cypress/tests?p=cypress\\integration\\features\\OpenAccount.feature:337:41)\n    at Context.eval (http://www.way2automation.com/__cypress/tests?p=cypress\\integration\\features\\OpenAccount.feature:113:15)\n    at Context.resolveAndRunStepDefinition (http://www.way2automation.com/__cypress/tests?p=cypress\\integration\\features\\OpenAccount.feature:14091:9)\n    at Context.eval (http://www.way2automation.com/__cypress/tests?p=cypress\\integration\\features\\OpenAccount.feature:13432:35)"
             }
           }
