@@ -27,3 +27,6 @@
 //require('@4tw/cypress-drag-drop')
 //require('cypress-iframe')
 //require('cypress-downloadfile/lib/downloadFileCommand')
+Cypress.Commands.add('gotosite', (site) => {
+    cy.visit(site);
+  });
