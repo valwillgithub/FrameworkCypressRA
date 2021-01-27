@@ -3,46 +3,33 @@
   "name" : "timeline",
   "children" : [ {
     "name" : "Verify Login As Customer",
-    "uid" : "3d906435a8b90326",
+    "uid" : "2a4dff1efd8510d7",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1607997071017,
-      "stop" : 1607997071479,
-      "duration" : 462
+      "start" : 1611784550770,
+      "stop" : 1611784551187,
+      "duration" : 417
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Add New Customer Testcase",
+    "uid" : "ca832532e579ae33",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611784520824,
+      "stop" : 1611784537268,
+      "duration" : 16444
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Open Account Testcase",
-    "uid" : "8c105e3def13f6e4",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1607997080463,
-      "stop" : 1607997086446,
-      "duration" : 5983
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Verify Login As Bank Manager",
-    "uid" : "63b9a153d3116b1",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1607997070398,
-      "stop" : 1607997071011,
-      "duration" : 613
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Open Account Testcase",
-    "uid" : "c88b53f5b1836eba",
+    "uid" : "cf774ed0106ccbc7",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -55,20 +42,72 @@
     "parameters" : [ ]
   }, {
     "name" : "Open Account Testcase",
-    "uid" : "fddcb4d574b46db9",
+    "uid" : "97371f2443a91ad9",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1607998139294,
-      "stop" : 1607998156169,
-      "duration" : 16875
+      "start" : 1607997080463,
+      "stop" : 1607997086446,
+      "duration" : 5983
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Add New Customer Testcase",
-    "uid" : "c42196998a7f5df5",
+    "uid" : "173c266ebc3a0253",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1611785153714,
+      "stop" : 1611785177524,
+      "duration" : 23810
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validate Title of the Page",
+    "uid" : "ad6e33230f5f670a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611785190752,
+      "stop" : 1611785192389,
+      "duration" : 1637
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Login As Bank Manager",
+    "uid" : "57ccd210554beb24",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611785192405,
+      "stop" : 1611785193052,
+      "duration" : 647
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Login As Customer",
+    "uid" : "ce4a66879ffa5d00",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607997071017,
+      "stop" : 1607997071479,
+      "duration" : 462
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Add New Customer Testcase",
+    "uid" : "4a4275bbdf5c530f",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -81,13 +120,195 @@
     "parameters" : [ ]
   }, {
     "name" : "Validate Title of the Page",
-    "uid" : "59fb1e1666b26d6a",
+    "uid" : "7784142914dbbbd5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611784548447,
+      "stop" : 1611784550103,
+      "duration" : 1656
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Open Account Testcase",
+    "uid" : "ccf55ed7a05b80e3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611784562233,
+      "stop" : 1611784568271,
+      "duration" : 6038
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Open Account Testcase",
+    "uid" : "b784da6a7dea6c31",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611532572931,
+      "stop" : 1611532579794,
+      "duration" : 6863
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Open Account Testcase",
+    "uid" : "733dab780a353e2b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611782337807,
+      "stop" : 1611782351524,
+      "duration" : 13717
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Open Account Testcase",
+    "uid" : "74772ebe7f62104b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611783107913,
+      "stop" : 1611783125014,
+      "duration" : 17101
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Open Account Testcase",
+    "uid" : "d78802314624b00",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611531960441,
+      "stop" : 1611531983633,
+      "duration" : 23192
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Login As Bank Manager",
+    "uid" : "3bd93132a74ce7cc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611784550121,
+      "stop" : 1611784550763,
+      "duration" : 642
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Open Account Testcase",
+    "uid" : "3120b027b6688454",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611534334209,
+      "stop" : 1611534338821,
+      "duration" : 4612
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Open Account Testcase",
+    "uid" : "b154d29619fe8fe8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611533485152,
+      "stop" : 1611533489739,
+      "duration" : 4587
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Login As Customer",
+    "uid" : "b1ead9dc3f0b6d40",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611785193058,
+      "stop" : 1611785193489,
+      "duration" : 431
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Open Account Testcase",
+    "uid" : "fc10d840e5cf219",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607998139294,
+      "stop" : 1607998156169,
+      "duration" : 16875
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validate Title of the Page",
+    "uid" : "a328a895624e86fb",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
       "start" : 1607997068754,
       "stop" : 1607997070377,
       "duration" : 1623
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Login As Bank Manager",
+    "uid" : "94cb1fcb1ffa8123",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1607997070398,
+      "stop" : 1607997071011,
+      "duration" : 613
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Open Account Testcase",
+    "uid" : "430112d023f62653",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611571263215,
+      "stop" : 1611571267711,
+      "duration" : 4496
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Open Account Testcase",
+    "uid" : "7018536c2c082f6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1611785204694,
+      "stop" : 1611785216766,
+      "duration" : 12072
     },
     "flaky" : false,
     "newFailed" : false,
