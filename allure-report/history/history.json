@@ -1,21 +1,39 @@
 {
   "8cc7825554527e7a47eff1dac73dc731" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "173c266ebc3a0253",
-      "status" : "failed",
-      "statusDetails" : "Timed out retrying after 8000ms: Expected to find element: `input[ng-model='fName_VAL']`, but never found it.",
+      "uid" : "a15fb1f71408ade",
+      "status" : "passed",
       "time" : {
-        "start" : 1611785153714,
-        "stop" : 1611785177524,
-        "duration" : 23810
+        "start" : 1613257348344,
+        "stop" : 1613257369624,
+        "duration" : 21280
+      }
+    } ]
+  },
+  "e110d27f77abf82a5c8f6ed240992164" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9fe963bfb39bc82e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613257348339,
+        "stop" : 1613257369615,
+        "duration" : 21276
       }
     } ]
   },
@@ -29,12 +47,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "57ccd210554beb24",
+      "uid" : "7732b5bee99e4b92",
       "status" : "passed",
       "time" : {
-        "start" : 1611785192405,
-        "stop" : 1611785193052,
-        "duration" : 647
+        "start" : 1613257379794,
+        "stop" : 1613257380405,
+        "duration" : 611
+      }
+    } ]
+  },
+  "11c5c8a18c6c06b1afbe11259c86c581" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e8e3b1363f716773",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613257379788,
+        "stop" : 1613257380398,
+        "duration" : 610
       }
     } ]
   },
@@ -48,12 +85,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b1ead9dc3f0b6d40",
+      "uid" : "d06be40e58c4392a",
       "status" : "passed",
       "time" : {
-        "start" : 1611785193058,
-        "stop" : 1611785193489,
-        "duration" : 431
+        "start" : 1613257380414,
+        "stop" : 1613257380794,
+        "duration" : 380
+      }
+    } ]
+  },
+  "ab1708217cd95e6a4785cb8ca16c7e81" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ddcdf394b3639cbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613257380404,
+        "stop" : 1613257380789,
+        "duration" : 385
+      }
+    } ]
+  },
+  "5efdeb98977602b913b63769c859a25c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9b6db844587237c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613257378229,
+        "stop" : 1613257379783,
+        "duration" : 1554
       }
     } ]
   },
@@ -67,13 +142,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7018536c2c082f6",
+      "uid" : "f09b6fdcbf31b051",
       "status" : "failed",
-      "statusDetails" : "Timed out retrying after 8000ms: Expected to find element: `input[ng-model='fName_VAL']`, but never found it.",
+      "statusDetails" : "Timed out retrying after 8000ms: Expected to find element: `#currency_VAL`, but never found it.",
       "time" : {
-        "start" : 1611785204694,
-        "stop" : 1611785216766,
-        "duration" : 12072
+        "start" : 1613257391969,
+        "stop" : 1613257409856,
+        "duration" : 17887
+      }
+    } ]
+  },
+  "ecce9ed719d974d16f553c90555ce87f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60541059cd22e63d",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 8000ms: Expected to find element: `#currency_VAL`, but never found it.",
+      "time" : {
+        "start" : 1613257391964,
+        "stop" : 1613257409853,
+        "duration" : 17889
       }
     } ]
   },
@@ -87,12 +182,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ad6e33230f5f670a",
+      "uid" : "7982d051f0bd344d",
       "status" : "passed",
       "time" : {
-        "start" : 1611785190752,
-        "stop" : 1611785192389,
-        "duration" : 1637
+        "start" : 1613257378246,
+        "stop" : 1613257379788,
+        "duration" : 1542
       }
     } ]
   }

@@ -4,35 +4,35 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Timed out retrying after 8000ms: Expected to find element: `input[ng-model='fName_VAL']`, but never found it.",
+      "name" : "Timed out retrying after 8000ms: Expected to find element: `#currency_VAL`, but never found it.",
       "children" : [ {
-        "name" : "Add New Customer Testcase",
-        "uid" : "173c266ebc3a0253",
-        "parentUid" : "81e71b70250939d5015292fea99b88b6",
+        "name" : "Open Account Testcase",
+        "uid" : "60541059cd22e63d",
+        "parentUid" : "683486d3be318b5547cde8b02a388a7b",
         "status" : "failed",
         "time" : {
-          "start" : 1611785153714,
-          "stop" : 1611785177524,
-          "duration" : 23810
+          "start" : 1613257391964,
+          "stop" : 1613257409853,
+          "duration" : 17889
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Open Account Testcase",
-        "uid" : "7018536c2c082f6",
-        "parentUid" : "81e71b70250939d5015292fea99b88b6",
+        "uid" : "f09b6fdcbf31b051",
+        "parentUid" : "683486d3be318b5547cde8b02a388a7b",
         "status" : "failed",
         "time" : {
-          "start" : 1611785204694,
-          "stop" : 1611785216766,
-          "duration" : 12072
+          "start" : 1613257391969,
+          "stop" : 1613257409856,
+          "duration" : 17887
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "81e71b70250939d5015292fea99b88b6"
+      "uid" : "683486d3be318b5547cde8b02a388a7b"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
