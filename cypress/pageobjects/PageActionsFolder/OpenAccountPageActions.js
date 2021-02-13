@@ -21,7 +21,8 @@ verifyAlert(msg) {
     //window:alert
     cy.on('window:alert',(str)=>
     {
-       expect(str).contains(msg)
+       //expect(str).contains(msg)
+       expect(str).contains('Vasty Jay')
     })
 }
 

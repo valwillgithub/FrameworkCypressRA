@@ -1,6 +1,6 @@
 [ {
   "data" : {
-    "run" : 5,
-    "retry" : 2
+    "run" : 10,
+    "retry" : 0
   }
 } ]
