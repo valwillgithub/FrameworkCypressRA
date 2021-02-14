@@ -2,8 +2,9 @@
   "firstname": "Billiy",
   "lastname": "Kid",
   "postcode": "11234",
-  "alertmsg": "VAL Customer added successfully with customer",
+  "alertmsgAddCustomer": "Customer added successfully with customer",
   "customer": "",
   "currencyToSelect": "Dollar",
-  "fullname": "Jessy34 Wales34"
+  "fullname": "Jessy34 Wales34",
+  "accountalert": "Account created successfully with account Number"
 }

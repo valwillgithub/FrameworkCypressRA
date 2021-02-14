@@ -1,32 +1,18 @@
+import OpenAccountPageElements from "../PageElementsFolder/OpenAccountPageElements";
+import { verifyAlert1, verifyAlert2 } from "../../libraryfolder/utils";
 
-import OpenAccountPageElements from '../PageElementsFolder/OpenAccountPageElements'
+export default class OpenAccountPageActions {
+  constructor() {
+    globalThis.openAccountElement = new OpenAccountPageElements();
+  }
 
-export default class OpenAccountPageActions{
-
-        constructor(){
-            globalThis.openAccountElement = new OpenAccountPageElements()
-        }
-
-openAccount(customer,currency){
-    openAccountElement.openAccountBtn().click()
-    //cy.pause()
-    cy.log('customer', customer)   
+  openAccount(customer, currency) {
+    openAccountElement.openAccountBtn().click();
+    cy.log("customer", customer);
     //cy.log('length => ' +customer.length)
-    openAccountElement.customerName().select(customer)
-    openAccountElement.currency().select(currency)
-    openAccountElement.processBtn().click()
-}        
-
-verifyAlert(msg) {
-    //window:alert
-    cy.on('window:alert',(str)=>
-    {
-       //expect(str).contains(msg)
-       expect(str).contains('Vasty Jay')
-    })
-}
-
-
-
-
-}//class
+    openAccountElement.customerName().select(customer);
+    openAccountElement.currency().select(currency);
+    openAccountElement.processBtn().click();
+    //verifyAlert1("Account created successfully with account Number");
+  }
+} //class

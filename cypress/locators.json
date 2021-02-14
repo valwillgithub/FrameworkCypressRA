@@ -13,7 +13,7 @@
   "openAccountPage": {
     "openAccountBtn": "button[ng-click='openAccount()']",
     "customerName": "#userSelect",
-    "currency": "#currency_VAL",
+    "currency": "#currency",
     "processBtn": "button[type='submit']"
   }
 }
