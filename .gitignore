@@ -1,6 +1,5 @@
 *.log
 *.mp4
-package-lock.json
 /folder1
 cypress/results/specs/*
 cypress/videos/
