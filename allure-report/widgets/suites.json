@@ -1,17 +1,6 @@
 {
   "total" : 3,
   "items" : [ {
-    "uid" : "40e58b2d914bc868de0f744ec2d0b481",
-    "name" : "Open Account TestSuite",
-    "statistic" : {
-      "failed" : 2,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
     "uid" : "d9f1d52f4d936669baf42228ea64362e",
     "name" : "Login As Bank Manager Testcase",
     "statistic" : {
@@ -25,6 +14,17 @@
   }, {
     "uid" : "14b14352ad4a5b14e0ae36d4365de0fb",
     "name" : "Add New Customer TestSuite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "40e58b2d914bc868de0f744ec2d0b481",
+    "name" : "Open Account TestSuite",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

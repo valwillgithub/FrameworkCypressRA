@@ -1,39 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Timed out retrying after 8000ms: Expected to find element: `#currency_VAL`, but never found it.",
-      "children" : [ {
-        "name" : "Open Account Testcase",
-        "uid" : "60541059cd22e63d",
-        "parentUid" : "683486d3be318b5547cde8b02a388a7b",
-        "status" : "failed",
-        "time" : {
-          "start" : 1613257391964,
-          "stop" : 1613257409853,
-          "duration" : 17889
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Open Account Testcase",
-        "uid" : "f09b6fdcbf31b051",
-        "parentUid" : "683486d3be318b5547cde8b02a388a7b",
-        "status" : "failed",
-        "time" : {
-          "start" : 1613257391969,
-          "stop" : 1613257409856,
-          "duration" : 17887
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "683486d3be318b5547cde8b02a388a7b"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  "children" : [ ]
 }
