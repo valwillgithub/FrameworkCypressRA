@@ -6,5 +6,6 @@
   "customer": "",
   "currencyToSelect": "Dollar",
   "fullname": "Jessy34 Wales34",
-  "accountalert": "Account created successfully with account Number"
+  "accountalert": "Account created successfully with account Number",
+  "testkey": "test value"
 }
