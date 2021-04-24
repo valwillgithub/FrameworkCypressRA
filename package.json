@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
-    "testcases": "cypress run --spec ./cypress/integration/testcases/*.js --browser chrome --headed --record --key d546813b-b171-4f64-93ec-69b7bfcc612d",
+    "testcases": "./node_modules/.bin/cypress run --spec ./cypress/integration/testcases/*.js --record --key d546813b-b171-4f64-93ec-69b7bfcc612d",
     "cyrun": "cypress run --spec ./cypress/integration/testcases/*.js --browser chrome --headed --env allure=true --reporter mocha-allure-reporter",
     "edgetest": "cypress run --spec cypress/integration/testcases/OpenAccountTest.spec.js -b edge --headed --record --key d546813b-b171-4f64-93ec-69b7bfcc612d",
     "edgetest-allure": "cypress run --spec cypress/integration/testcases/OpenAccountTest.spec.js --browser chrome --headed --reporter mocha-allure-reporter",
