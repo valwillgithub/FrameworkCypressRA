@@ -1,6 +1,7 @@
 {
-    "cucumber-quick": {
-        "tool": "cypress",
-        "script": "npx cypress-tags"
-    }
+	"cucumber-quick": {
+		"tool": "cypress",
+		"script": "npx cypress-tags"
+	},
+	"git.ignoreLimitWarning": true
 }
