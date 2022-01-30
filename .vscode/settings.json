@@ -1,7 +1,7 @@
 {
-	"cucumber-quick": {
-		"tool": "cypress",
-		"script": "npx cypress-tags"
-	},
-	"git.ignoreLimitWarning": true
+  "cucumberautocomplete.steps": ["cypress/integration/*/*.js"],
+  "cucumberautocomplete.syncfeatures": "cypress/integration/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": false,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true
 }

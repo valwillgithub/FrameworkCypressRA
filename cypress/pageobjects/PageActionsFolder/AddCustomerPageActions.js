@@ -13,11 +13,11 @@ export default class AddCustomerPageActions {
     custElement.addCustomerSubmit().click();
   }
 
-  // verifyAlert(msg) {
-  //   //window:alert
-  //   cy.on("window:alert", (str) => {
-  //     expect(str).contains(msg);
-  //     //expect(str).contains('Valmond Williams')
-  //   });
-  // }
+  verifyAlert(msg) {
+    //window:alert
+    cy.on("window:alert", (str) => {
+      expect(str).contains(msg);
+      //expect(str).contains('Valmond Williams')
+    });
+  }
 } //class
