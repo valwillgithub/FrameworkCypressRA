@@ -1,6 +1,8 @@
 name: CI with Github Actions
 
 on:
+  push:
+  branches: [master]
   pull_request:
     branches: [master]
 
