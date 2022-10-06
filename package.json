@@ -7,6 +7,7 @@
     "cy:open": "cypress open",
     "testcases": "./node_modules/.bin/cypress run --spec ./cypress/integration/testcases/*.js --record --key d546813b-b171-4f64-93ec-69b7bfcc612d",
     "cyrun": "cypress run --spec ./cypress/integration/testcases/*.js --browser chrome --headed --env allure=true --reporter mocha-allure-reporter",
+    "features": "cypress run --spec ./cypress/integration/**/*.feature --browser chrome --headed --env allure=true --reporter mocha-allure-reporter",
     "edgetest": "cypress run --spec cypress/integration/testcases/OpenAccountTest.spec.js -b edge --headed --record --key d546813b-b171-4f64-93ec-69b7bfcc612d",
     "edgetest-allure": "cypress run --spec cypress/integration/testcases/OpenAccountTest.spec.js --browser chrome --headed --reporter mocha-allure-reporter",
     "finaltest-allure": "npm run edgetest-allure && npm run generate-allurereports",
@@ -22,7 +23,7 @@
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.0.3",
     "allure-commandline": "^2.13.0",
-    "cypress": "8.4.1",
+    "cypress": "^10.9.0",
     "cypress-cucumber-preprocessor": "^4.0.0",
     "mocha-allure-reporter": "^1.4.0",
     "mochawesome": "^6.2.1",

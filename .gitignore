@@ -8,3 +8,4 @@ cypress/cucumber-json/
 node_modules/
 yarn.lock
 allure-results/
+allure-report/
