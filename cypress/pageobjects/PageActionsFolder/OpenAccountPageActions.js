@@ -1,5 +1,5 @@
 import OpenAccountPageElements from "../PageElementsFolder/OpenAccountPageElements";
-import { verifyAlert1, verifyAlert2 } from "../../libraryfolder/utils";
+import checkAlert from "../../libraryfolder/utils";
 
 export default class OpenAccountPageActions {
   constructor() {
@@ -13,6 +13,10 @@ export default class OpenAccountPageActions {
     openAccountElement.customerName().select(customer);
     openAccountElement.currency().select(currency);
     openAccountElement.processBtn().click();
-    //verifyAlert1("Account created successfully with account Number");
+    //checkAlert("Account created successfully with account Number");
+  }
+
+  verifyAlert(msg) {
+    checkAlert(msg);
   }
 } //class

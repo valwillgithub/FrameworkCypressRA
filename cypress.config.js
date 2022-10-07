@@ -23,7 +23,8 @@ module.exports = defineConfig({
     runMode: 0,
     openMode: 0,
   },
-  projectId: "86v319",
+
+  projectId: "dydwn6",
   video: true,
   e2e: {
     // We've imported your old cypress plugins here.

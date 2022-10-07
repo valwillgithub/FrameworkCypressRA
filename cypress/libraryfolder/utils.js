@@ -7,13 +7,12 @@ export function verifyAlert1(msg) {
   });
 }
 
-// export function verifyAlert2(msg) {
-//   //window:alert
-//   cy.on('window:alert',(str)=>
-//   {
-//      expect(str).contains(msg)
-//   })
-// }
+export function checkAlert(msg) {
+  //window:alert
+  cy.on("window:alert", (str) => {
+    expect(str).contains(msg);
+  });
+}
 
 export function getRandomNumber() {
   const min = 10;
