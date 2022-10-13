@@ -10,3 +10,4 @@ yarn.lock
 allure-results/
 allure-report/
 testdata.json
+reports/cucumber-report
