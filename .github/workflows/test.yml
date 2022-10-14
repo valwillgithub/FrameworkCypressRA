@@ -19,7 +19,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v4
         with:
-          command: npm run speccases
+          command: npm run run:ci
           record: true
         env:
           # pass the Dashboard record key as an environment variable

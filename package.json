@@ -19,7 +19,8 @@
     "generate-allurereports": "allure generate allure-results --clean -o allure-report && allure open allure-report",
     "cyrun:allure": "npm run allureclear && npm run cyrun || npm run generate-allurereports",
     "clearval": "rmdir /q /s ./cypress/cucumberjson",
-    "report": "node ./cucumber-html-report.js"
+    "report": "node ./cucumber-html-report.js",
+    "run:ci": "cypress run --spec ./cypress/integration/**/*.feature"
   },
   "author": "vwilliams",
   "license": "ISC",
