@@ -27,3 +27,10 @@ jobs:
           # pass GitHub token to allow accurately detecting a build vs a re-run build
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           COMMIT_INFO_MESSAGE: ${{github.event.pull_request.title}}
+      - name: Generate Report
+        run: npm run report
+      - name: Upload Report
+        uses: action/upload-artifact@v2
+        with:
+          name: cypress-cucumber-report
+          path: FrameworkCypressRA/reports/cucumber-report/

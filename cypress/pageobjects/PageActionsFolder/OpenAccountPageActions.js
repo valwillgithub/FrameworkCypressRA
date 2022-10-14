@@ -6,13 +6,18 @@ export default class OpenAccountPageActions {
     globalThis.openAccountElement = new OpenAccountPageElements();
   }
 
-  openAccount(customer, currency) {
+  openAccount(customer, currency, msg) {
     openAccountElement.openAccountBtn().click();
-    cy.log("customer", customer);
-    //cy.log('length => ' +customer.length)
+    cy.log("customer => ", customer);
+    cy.log("length => " + customer.length);
+    cy.log("msg => " + msg);
+
     openAccountElement.customerName().select(customer);
     openAccountElement.currency().select(currency);
+    //cy.pause();
+
     openAccountElement.processBtn().click();
-    //verifyAlert1("Account created successfully with account Number");
+    //verifyAlert1("Account created successfully with account VAL");
+    verifyAlert1(msg);
   }
 } //class
