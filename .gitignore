@@ -10,7 +10,7 @@ node_modules/
 yarn.lock
 allure-results/
 allure-report/
-testdata.json
+cypress/fixtures/testdata.json
 reports/cucumber-report
 mochawesome/
 reports/
