@@ -39,7 +39,7 @@ jobs:
       - name: Copy cucumber report folder to public
         run: |
           mkdir public
-          cp -R report/cucumber-report public
+          cp -R reports/cucumber-report public
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
