@@ -35,7 +35,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           COMMIT_INFO_MESSAGE: ${{github.event.pull_request.title}}
       - name: Generate Allure Report
-        run: npm run generate-allurereports
+        run: npm run allurereports
       - name: Upload Report
         uses: actions/upload-artifact@v3
         with:
