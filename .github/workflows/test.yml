@@ -38,5 +38,5 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: report/cucumber-report
+          folder: ~report/cucumber-report
           branch: gh-pages
