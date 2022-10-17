@@ -36,7 +36,7 @@ jobs:
           name: cypress-cucumber-report
           path: reports/cucumber-report/
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-actions@v4
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: report/cucumber-report
           branch: gh-pages
