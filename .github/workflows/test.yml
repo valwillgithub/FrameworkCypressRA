@@ -30,11 +30,11 @@ jobs:
           COMMIT_INFO_MESSAGE: ${{github.event.pull_request.title}}
       - name: Generate Report
         run: npm run report
-      - name: Upload Report
-        uses: actions/upload-artifact@v3
-        with:
-          name: cypress-cucumber-report
-          path: reports/cucumber-report/
+      # - name: Upload Report
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: cypress-cucumber-report
+      #     path: reports/cucumber-report/
 
       - name: Copy cucumber report folder to public
         run: |
