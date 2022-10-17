@@ -1,0 +1,31 @@
+[ {
+  "uid" : "51ecb8b1a3192062",
+  "name" : "Login as Bank Manager",
+  "time" : {
+    "start" : 1666023124223,
+    "stop" : 1666023133552,
+    "duration" : 9329
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e94bbba38f6acba",
+  "name" : "Open a new bank account scenario",
+  "time" : {
+    "start" : 1666023206675,
+    "stop" : 1666023215364,
+    "duration" : 8689
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c566f2ea31e3d8",
+  "name" : "Login as Bank Manager",
+  "time" : {
+    "start" : 1666023155680,
+    "stop" : 1666023161359,
+    "duration" : 5679
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

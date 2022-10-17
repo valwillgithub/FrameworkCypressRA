@@ -1,0 +1,56 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Create a new customer as a bank manager",
+    "children" : [ {
+      "name" : "Login as Bank Manager",
+      "uid" : "51ecb8b1a3192062",
+      "parentUid" : "fd20223dbb5fc102a066023a2f003f84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666023124223,
+        "stop" : 1666023133552,
+        "duration" : 9329
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fd20223dbb5fc102a066023a2f003f84"
+  }, {
+    "name" : "Bank Manager Login",
+    "children" : [ {
+      "name" : "Login as Bank Manager",
+      "uid" : "4c566f2ea31e3d8",
+      "parentUid" : "a88cd0fd7502a1274ec016bfca15b1b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666023155680,
+        "stop" : 1666023161359,
+        "duration" : 5679
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a88cd0fd7502a1274ec016bfca15b1b2"
+  }, {
+    "name" : "Open a new bank account feature",
+    "children" : [ {
+      "name" : "Open a new bank account scenario",
+      "uid" : "7e94bbba38f6acba",
+      "parentUid" : "873ec4fd1a7265a72963799156368d45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1666023206675,
+        "stop" : 1666023215364,
+        "duration" : 8689
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "873ec4fd1a7265a72963799156368d45"
+  } ],
+  "name" : "behaviors"
+}

@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Oct 17 16:12:04 UTC 2022","Mon Oct 17 16:12:13 UTC 2022","9329","","Create a new customer as a bank manager","","","","Login as Bank Manager",""
+"passed","Mon Oct 17 16:13:26 UTC 2022","Mon Oct 17 16:13:35 UTC 2022","8689","","Open a new bank account feature","","","","Open a new bank account scenario",""
+"passed","Mon Oct 17 16:12:35 UTC 2022","Mon Oct 17 16:12:41 UTC 2022","5679","","Bank Manager Login","","","","Login as Bank Manager",""
