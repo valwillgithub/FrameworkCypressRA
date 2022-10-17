@@ -35,8 +35,13 @@ jobs:
         with:
           name: cypress-cucumber-report
           path: reports/cucumber-report/
+
+      - name: Copy cucumber report folder to public
+        run: |
+          mkdir public
+          cp -R report/cucumber-report public
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: ~report/cucumber-report
+          folder: public
           branch: gh-pages
