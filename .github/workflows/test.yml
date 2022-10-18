@@ -50,4 +50,4 @@ jobs:
           aws_bucket: vwtestreports
           source_dir: public
       - name: Link To Report
-        run: echo "https://s3.amazonaws.com/bucketName/${{steps.S3.outputs.object_key}}/index.html"
+        run: echo "https://vwtestreports.s3.eu-west-2.amazonaws.com/${{steps.S3.outputs.object_key}}/index.html"
