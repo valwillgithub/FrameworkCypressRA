@@ -16,6 +16,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Set up JDK 1.8
+        uses: actions/setup-java@v3
+        with:
+          distribution: "zulu" # See 'Supported distributions' for available options
+          java-version: "8"
+
       - name: Cypress run
         uses: cypress-io/github-action@v4
         with:
@@ -28,26 +34,20 @@ jobs:
           # pass GitHub token to allow accurately detecting a build vs a re-run build
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           COMMIT_INFO_MESSAGE: ${{github.event.pull_request.title}}
-      - name: Generate Cucumber Report
-        run: npm run report
+      - name: Generate Allure Report
+        run: npm run allurereports
       - name: Upload Report
         uses: actions/upload-artifact@v3
         with:
-          name: cypress-cucumber-report
-          path: reports/cucumber-report/
+          name: Allure-report
+          path: allure-report/
 
-      - name: Copy cucumber report folder to public
+      - name: Copy allure report folder to public
         run: |
           mkdir public
-          cp -R reports/cucumber-report/* public
-
-      - name: Upload to S3 bucket
-        uses: shallwefootball/s3-upload-action@master
-        id: S3
+          cp -R allure-report/* public
+      - name: Deploy Allure Report
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          aws_key_id: ${{secrets.AWS_KEY_ID}}
-          aws_secret_access_key: ${{secrets.AWS_SECRET_ACCESS_KEY}}
-          aws_bucket: vwtestreports
-          source_dir: public
-      - name: Link To Report
-        run: echo "https://s3.amazonaws.com/bucketName/${{steps.S3.outputs.object_key}}/index.html"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
