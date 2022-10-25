@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: "co3mox",
   defaultCommandTimeout: 8000,
   modifyObstructiveCode: true,
   experimentalSourceRewriting: true,
