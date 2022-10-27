@@ -24,7 +24,8 @@
     "report": "node ./cucumber-html-report.js",
     "run:ci": "cypress run --spec ./cypress/integration/**/*.feature --env allure=true",
     "single": "cypress run --spec cypress/integration/features/OpenAccount.feature --headed",
-    "cross": "npm run single -- -b chrome & npm run single -- -b firefox"
+    "cross": "npm run single -- -b chrome & npm run single -- -b firefox",
+    "lint": "eslint ./cypress --ext .js"
   },
   "author": "vwilliams",
   "license": "ISC",
@@ -33,6 +34,7 @@
     "allure-commandline": "^2.13.0",
     "cypress": "10.10.0",
     "cypress-cucumber-preprocessor": "^4.0.0",
+    "eslint": "^8.26.0",
     "mocha-allure-reporter": "^1.4.0",
     "mochawesome": "^6.2.1",
     "mochawesome-merge": "^4.2.0",
