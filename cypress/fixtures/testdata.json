@@ -1,11 +1,11 @@
 {
-  "firstname": "Billiy",
-  "lastname": "Kid",
-  "postcode": "11234",
-  "alertmsgAddCustomer": "Customer added successfully with customer",
-  "customer": "",
-  "currencyToSelect": "Pound",
-  "fullname": "Bo37 Jo37",
-  "accountalert": "Account created successfully with account Number",
-  "testkey": "test value"
+	"firstname": "Billiy",
+	"lastname": "Kid",
+	"postcode": "11234",
+	"alertmsgAddCustomer": "Customer added successfully with customer",
+	"customer": "",
+	"currencyToSelect": "Pound",
+	"fullname": "Bo37 Jo37",
+	"accountalert": "Account created successfully with account Number",
+	"testkey": "test value"
 }
