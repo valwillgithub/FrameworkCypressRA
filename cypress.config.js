@@ -36,7 +36,7 @@ module.exports = defineConfig({
 		baseUrl:
 			'http://www.way2automation.com/angularjs-protractor/banking/#/login',
 		//specPattern: "cypress/integration/**/*.{js,jsx,ts,tsx,feature}",
-		//specPattern: "cypress/integration/**/*.feature",
+		specPattern: 'cypress/integration/**/*.feature',
 
 		experimentalSessionAndOrigin: true,
 	},
